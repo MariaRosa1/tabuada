@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(71, 103, 155);
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conta {
+    border: 2px solid rgb(102, 94, 94);
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+.conta .elements {
+    background-color: aliceblue;
+    margin: 20px;
+}
+select{
+    width: 100px;
+    height: 100px;
+}
